@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Website SMAN 1 Bogor</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="font/poppins.ttf">
+</head>
+
+<body>
+  <header>
+    <div class="atas">
+      <img class="logo" src="images/Lambang.png" alt="logo" height=80px>
+      <div class="keterangan">
+        <h1>SMAN 1 Bogor</h1>
+        <p>Melangkah lebih maju mengejar kesuksesan</p>
+      </div>
+      <form>
+        <div class="kotakcari">
+          <input type="text" placeholder="Pencarian">
+        </div>
+      </form>
+    </div>
+
+    <div class="kotakberjalan">
+      <div class="tulisanberjalan">
+        <h4>SELAMAT DATANG DI WEBSITE RESMI SMA NEGERI 1 BOGOR</h4>
+      </div>
+    </div>
+  </header>
+  <div class="konten">
+    <div class="sidebar">
+      <ul class="menu">
+        <li><img src="images/menu/beranda.png" alt="ikon">
+          <a href="index.html"><b class="kolom">Beranda</b></a>
+          <ul class="submenu">
+            <li><a href="#ktsambutan">Kata Sambutan</a></li>
+            <li><a href="#ttg">Tentang Sekolah</a></li>
+            <li><a href="#brta">Berita Sekolah</a></li>
+            <li><a href="#prtsi">Prestasi Sekolah</a></li>
+            <li><a href="#glri">Galeri Sekolah</a></li>
+          </ul>
+        </li>
+        <li><img src="images/menu/profile.png" alt="ikon">
+          <a href="profil.html"><b class="kolom">Profil</b></a>
+          <ul class="submenu">
+            <li><a href="#visi">Visi</a></li>
+            <li><a href="#misi">Misi</a></li>
+            <li><a href="#motto">Motto</a></li>
+            <li><a href="#sejarah">Sejarah</a></li>
+          </ul>
+        </li>
+        <li><img src="images/menu/jurusan.png" alt="ikon">
+          <a href="jurusan.html"><b class="kolom">Jurusan</b></a>
+          <ul class="submenu">
+            <li><a href="#ipa">IPA</a></li>
+            <li><a href="#ips">IPS</a></li>
+            <li><a href="#bhs">BAHASA</a></li>
+          </ul>
+        </li>
+        <li><img src="images/menu/pendaftaran.png" alt="ikon">
+          <a href="pendaftaran.html"><b class="kolom">Pendaftaran</b></a>
+        </li>
+      </ul>
+    </div>
+    <div class="isi">
+            <div class="berita" style="margin-left: 0px;">
+        <h1 style="font-size:30px; letter-spacing:2px; margin-bottom: 65px; margin-top: 60px;"> FORMULIR PENDAFTARAN</h1>
+        <div class="kotakform">
+            <img class="gambarform" src="images/pendaftaran/gform.png" alt="Foto Form">
+        </div>
+            </div>
+<form>
+    <div class="daftar">
+        <div class="kotakinput">
+            <label for="nama_lengkap">Nama Lengkap<span class="wajib">*</span></label>
+          <div class="col">
+            <input type="text" id="nama_lengkap" required><br>
+            <span class="keterangan">Tulis nama lengkap sesuai ijazah SMP/MTs</span>
+          </div>
+        </div>
+        <div class="kotakinput">
+            <label for="nisn">Username<span class="wajib">*</span></label>
+          <div class="col">
+            <input type="text" id="nisn" maxlength="15" required><br>
+            <span class="keterangan">Isi maksimal 15 karakter</span>
+          </div>
+        </div>
+        <div class="kotakinput">
+            <label for="nik">Password<span class="wajib">*</span></label>
+          <div class="col">
+            <input type="text" id="nik" maxlength="10" required><br>
+            <span class="keterangan">Isi maksimal 10 karakter</span>
+          </div>
+        </div>
+        <div class="kotakinput">
+            <label>Jenis Kelamin<span class="wajib">*</span></label>
+          <div class="col">
+          <div class="radio">
+            <ul>
+                <li>
+                    <label class="kotakradio">
+                        <input type="radio" name="gender" value="male" class="inputradio">
+                        <span>Laki-laki</span>
+                    </label>
+                </li>
+                <li>
+                    <label class="kotakradio">
+                        <input type="radio" name="gender" value="female" class="inputradio">
+                        <span>Perempuan</span>
+                    </label>
+                </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        <div class="kotakinput">
+            <label for="nisn">NISN<span class="wajib">*</span></label>
+          <div class="col">
+            <input type="text" id="nisn" maxlength="10" required><br>
+            <span class="keterangan">Isi dengan 10 digit angka NISN</span>
+          </div>
+        </div>
+
+        <div class="kotakinput">
+            <label for="nik">NIK<span class="wajib">*</span></label>
+          <div class="col">
+            <input type="text" id="nik" maxlength="15" required><br>
+            <span class="keterangan">Isi dengan 15 digit angka NISN (bisa dilihat di KK)</span>
+          </div>
+        </div>
+
+        <div class="inputdata">
+            <div class="kotakinput">
+                <label for="tempat_lahir">Tempat dan Tanggal Lahir<span class="wajib">*</span></label>
+              <div class="col">
+                <div class="sejajar">
+                <div class="baris">
+                <input style="width:540px;" type="text" id="tempat_lahir" required>
+                <span class="keterangan">Tempat lahir</span>
+                </div>
+                  <div class="baris">
+                <input type="date" id="tanggal_lahir" required>
+                <span class="keterangan">Tanggal lahir</span>
+                  </div>
+            </div>
+            </div>
+            </div>
+        </div>
+
+          <div class="kotakinput">
+            <label>Agama<span class="wajib">*</span></label>
+            <div class="col">
+              <div class="radio">
+            <ul>
+              <li>
+                <label class="kotakradio">
+                  <input type="radio" name="gender" value="islam" class="inputradio">
+                  <span>Islam</span>
+                </label>
+              </li>
+              <li>
+                <label class="kotakradio">
+                  <input type="radio" name="gender" value="kristen" class="inputradio">
+                  <span>Kristen</span>
+                </label>
+              </li>
+            </ul>
+              </div>
+              <div class="radio">
+                <ul>
+              <li>
+                <label class="kotakradio">
+                  <input type="radio" name="gender" value="katolik" class="inputradio">
+                  <span>Katolik</span>
+                </label>
+              </li>
+              <li>
+                <label class="kotakradio">
+                  <input type="radio" name="gender" value="hindu" class="inputradio">
+                  <span>Hindu</span>
+                </label>
+              </li>
+                </ul>
+              </div>
+              <div class="radio">
+                <ul>
+              <li>
+                <label class="kotakradio">
+                  <input type="radio" name="gender" value="buddha" class="inputradio">
+                  <span>Buddha</span>
+                </label>
+              </li>
+              <li><input  style="width:370px; margin-left:100px;" type="text" placeholder="Other">
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+           <div class="kotakinput">
+            <label for="goldar">Golongan Darah</label>
+            <div class="col">
+            <select id="goldar" name="goldar">
+              <option disabled selected hidden></option>
+              <option value="a">A</option>
+              <option value="b">B</option>
+              <option value="ab">AB</option>
+              <option value="o">O</option>
+            </select>
+            </div>
+          </div>
+          <div class="kotakinput">
+              <label for="alamat">Alamat<span class="wajib">*</span></label>
+            <div class="col">
+              <input type="text" id="alamat">
+            </div>
+            </div>
+          <div class="kotakinput">
+              <label for="sekolah">Asal Sekolah<span class="wajib">*</span></label>
+            <div class="col">
+              <input type="text" id="sekolah">
+            </div>
+            </div>
+      <div class="kotakinput">
+              <label for="alamat">Hobi<span class="wajib">*</span></label>
+            <div class="col">
+              <input type="text" id="alamat">
+            </div>
+            </div>
+          <div class="inputdata">
+            <div class="kotakinput">
+              <label for="jurusan">Jurusan<span class="wajib">*</span></label>
+            <div class="sejajar">
+              <div class="baris">
+            <select style="width: 480px;" id="jurusan" name="goldar">
+              <option disabled selected hidden>Pilihan 1</option>
+              <option value="ipa">IPA</option>
+              <option value="ips">IPS</option>
+              <option value="bahasa">Bahasa</option>
+            </select>
+              </div>
+              <div class="baris">
+            <select id="jurusan" name="goldar">
+              <option disabled selected hidden>Pilihan 2</option>
+              <option value="ipa">IPA</option>
+              <option value="ips">IPS</option>
+              <option value="bahasa">Bahasa</option>
+            </select>
+              </div>
+              <div class="baris">
+            <select id="jurusan" name="goldar">
+              <option disabled selected hidden>Pilihan 3</option>
+              <option value="ipa">IPA</option>
+              <option value="ips">IPS</option>
+              <option value="bahasa">Bahasa</option>
+            </select>
+              </div>
+            </div>
+            </div>
+          </div>
+      <div class="tombol">
+      <div class="kotakinput">
+            <input type="submit" value="Batal" class="batal">
+        </div>
+        <div class="kotakinput">
+            <input type="submit" value="Simpan" class="submit">
+        </div>
+      </div>
+    </div>
+          </div>
+      </form>
+      </div>
+  </div>
+</body>
+<footer>
+  <div class="ket">SMAN 1 Bogor
+    <div class="logo">
+      <ul>
+        <li><a href="#"><img src="images/footer/lokasi.png" alt="Lokasi" width="15px" ;></a></li>
+      </ul>
+      <p>Jl. Ir. H. Juanda 16<br>
+        Bogor Jawa Barat 16122</p>
+    </div>
+  </div>
+  <div class="about">Profil
+    <ul>
+      <li><a href="#">Visi</a></li>
+      <li><a href="#">Misi</a></li>
+      <li><a href="#">Motto</a></li>
+      <li><a href="#">Sejarah</a></li>
+    </ul>
+  </div>
+  <div class="jurusan">Jurusan
+    <ul>
+      <li><a href="#">IPA</a></li>
+      <li><a href="#">IPS</a></li>
+      <li><a href="#">BAHASA</a></li>
+    </ul>
+  </div>
+  <div class="help">Bantuan
+    <ul>
+      <li><a href="#">Cara Mendafatar</a></li>
+      <li><a href="#">Terms and Conditions</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+  </div>
+  <div class="contact">Kontak Kami
+    <div class="logo">
+      <ul>
+        <li><a href="#"><img src="images/footer/telp.png" alt="Telepon"></a></li>
+        <li><a href="#"><img src="images/footer/email.png" alt="Email"></a></li>
+        <li><a href="#"><img src="images/footer/yt.png" alt="Youtube"></a></li>
+        <li><a href="#"><img src="images/footer/ig.png" alt="Instagram"></a></li>
+        <li><a href="#"><img src="images/footer/fb.png" alt="Facebook"></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright © 2023 <span>SMAN 1 Bogor</span>. All Rights Reserved.</p>
+  </div>
+</footer>
+
+</html>
